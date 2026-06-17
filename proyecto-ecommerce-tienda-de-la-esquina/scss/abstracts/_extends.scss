@@ -1,0 +1,32 @@
+
+/* =====================================================
+   CARD BASE
+===================================================== */
+
+%card-base {
+
+    border: 1px solid $color-border;
+    border-radius: $border-radius;
+}
+
+/* =====================================================
+   PANEL BASE
+===================================================== */
+
+%panel-base {
+
+    border: 1px solid $color-border;
+    border-radius: $border-radius;
+
+    background-color: $color-surface;
+}
+
+/* =====================================================
+   TITLE BASE
+===================================================== */
+
+%title-base {
+
+    font-weight: $font-weight-semibold;
+    text-align: center;
+}

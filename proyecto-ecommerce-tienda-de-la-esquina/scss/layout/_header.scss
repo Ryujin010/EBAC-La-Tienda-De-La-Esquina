@@ -1,0 +1,41 @@
+
+.header {
+
+    @include flex-between;
+
+    width: 100%;
+
+    padding: 20px 50px;
+
+    background-color: $color-primary;
+
+    &__menu,
+    &__logo,
+    &__cart {
+
+        @include flex-center;
+
+        width: 60px;
+
+        cursor: pointer;
+    }
+
+    &__menu-icon,
+    &__logo-image,
+    &__cart-icon {
+
+        width: 100%;
+        max-width: 80px;
+    }
+
+    &__title {
+
+        color: $color-white;
+
+        font-size: rem(32);
+
+        font-weight: 600;
+
+        text-align: center;
+    }
+}

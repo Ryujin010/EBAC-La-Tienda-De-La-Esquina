@@ -1,0 +1,19 @@
+.hero {
+
+    width: 100%;
+
+   // margin: $spacing-xs;
+
+    margin: 5px;
+
+    padding: 225px $spacing-xs;
+
+    background-image:
+        url("../img/banner-tienda.png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+}

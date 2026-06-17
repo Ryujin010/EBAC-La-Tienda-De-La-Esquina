@@ -1,0 +1,41 @@
+@include tablet {
+
+    .header {
+
+        flex-direction: column;
+
+        gap: 15px;
+
+        padding: 15px;
+
+        &__title {
+
+            font-size: rem(24);
+        }
+    }
+
+    .hero {
+
+        padding: 150px 10px;
+    }
+
+    .products {
+
+        &__grid {
+
+            grid-template-columns:
+            repeat(auto-fit, minmax(200px,1fr));
+        }
+    }
+
+    .cart {
+
+        width: 300px;
+    }
+
+    .carousel__image {
+
+        height: 350px;
+    
+    }
+}

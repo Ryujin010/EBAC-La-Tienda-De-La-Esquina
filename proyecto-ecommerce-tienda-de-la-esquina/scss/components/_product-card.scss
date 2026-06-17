@@ -1,0 +1,61 @@
+.product-card {
+
+    border: 1px solid $color-gray;
+
+    @include card;
+
+    padding: 15px;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    @include transition;
+
+    &:hover {
+
+        transform: translateY(-5px);
+    }
+
+    &__image {
+
+        width: 100%;
+
+        margin-bottom: 15px;
+    }
+
+    &__title {
+
+        margin-bottom: 10px;
+
+        font-size: rem(18);
+
+        font-weight: 600;
+    }
+
+    &__price {
+
+        color: #555;
+
+        font-weight: 500;
+    }
+
+    /* MODIFIERS */
+
+    &--featured {
+
+        border: 2px solid gold;
+    }
+
+    &--sale {
+
+        background-color: #fff8e1;
+    }
+
+    &--out-stock {
+
+        opacity: .6;
+
+        cursor: not-allowed;
+    }
+}

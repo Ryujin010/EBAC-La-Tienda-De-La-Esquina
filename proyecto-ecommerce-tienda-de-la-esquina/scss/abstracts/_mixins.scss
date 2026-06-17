@@ -1,0 +1,79 @@
+
+/* =====================================================
+   FLEX CENTER
+===================================================== */
+
+@mixin flex-center {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* =====================================================
+   FLEX BETWEEN
+===================================================== */
+
+@mixin flex-between {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* =====================================================
+   PANEL
+===================================================== */
+
+@mixin panel {
+
+    border: 1px solid $color-border;
+    border-radius: $border-radius;
+}
+
+
+/* =====================================================
+   CARD
+===================================================== */
+
+@mixin card {
+
+    border-radius: $border-radius;
+
+    box-shadow: $shadow-cart;
+
+    background-color: $color-white;
+}
+
+
+/* =====================================================
+   TRANSITION
+===================================================== */
+
+@mixin transition {
+
+    transition: all .3s ease;
+}
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@mixin tablet {
+
+    @media (max-width: $breakpoint-tablet) {
+
+        @content;
+    }
+}
+
+@mixin mobile {
+
+    @media (max-width: $breakpoint-mobile) {
+
+        @content;
+    }
+}

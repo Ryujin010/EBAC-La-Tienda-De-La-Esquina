@@ -1,0 +1,58 @@
+@include mobile {
+
+    .header {
+
+        &__title {
+
+            font-size: rem(20);
+        }
+    }
+
+    .hero {
+
+        padding: 100px 10px;
+    }
+
+    .products {
+
+        padding: 10px;
+
+        &__grid {
+
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .cart {
+
+        position: static;
+
+        width: 100%;
+
+        max-height: none;
+
+        margin-top: 20px;
+
+        box-shadow: none;
+
+        &__item {
+
+            flex-direction: column;
+
+            gap: 10px;
+
+            text-align: center;
+        }
+
+        &__image {
+
+            width: 80px;
+        }
+    }
+
+    .carousel__image {
+
+        height: 220px;
+    
+    }
+}
