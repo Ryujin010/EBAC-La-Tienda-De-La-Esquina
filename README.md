@@ -19,10 +19,6 @@ Proyecto desarrollado durante mi formación en **EBAC**.
 
 Sitio web para un comercio local, con presentación de productos y diseño adaptable a distintos dispositivos.
 
-<!-- Agrega aquí una captura de pantalla de tu proyecto:
-![Vista previa](./img/preview.png)
--->
-
 ## 🛠️ Tecnologías
 
 - **HTML5**
