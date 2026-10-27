@@ -51,7 +51,7 @@ Luego:
 
 ## 🧠 Lo que aprendí
 
-- Maquetación de páginas completas con HTML y CSS
+- Creacion de páginas completas con HTML y CSS
 - Buenas prácticas de estructura y organización de estilos
 - Diseño responsivo con media queries
 
